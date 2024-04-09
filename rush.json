@@ -1,0 +1,79 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.119.0",
+  "pnpmVersion": "7.33.5",
+  "nodeSupportedVersionRange": ">=14.15.0 <15.0.0 || >=16.13.0 <17.0.0 || >=18.15.0 <21.0.0",
+  "gitPolicy": {
+  },
+
+  "repository": {
+    "url": "git@github.com:rustymotors/racebox.git"
+  },
+  "eventHooks": {
+    "preRushInstall": [
+    ],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": [],
+    "preRushx": [],
+    "postRushx": []
+  },
+  "projects": [
+    {
+      "packageName": "rm-shared-packets",
+      "projectFolder": "tools/shared-packets"
+    },
+    {
+      "packageName": "rm-shared",
+      "projectFolder": "tools/shared"
+    },
+    {
+      "packageName": "rm-shard",
+      "projectFolder": "tools/shard"
+    },
+    {
+      "packageName": "rm-core",
+      "projectFolder": "tools/core"
+    },
+    {
+      "packageName": "rm-persona",
+      "projectFolder": "tools/persona"
+    },
+    {
+      "packageName": "rm-nps",
+      "projectFolder": "tools/nps"
+    },
+    {
+      "packageName": "rm-database",
+      "projectFolder": "tools/database"
+    },
+    {
+      "packageName": "rm-transactions",
+      "projectFolder": "tools/transactions"
+    },
+    {
+      "packageName": "rm-patch",
+      "projectFolder": "tools/patch"
+    },
+    {
+      "packageName": "rm-login",
+      "projectFolder": "tools/login"
+    },
+    {
+      "packageName": "rm-lobby",
+      "projectFolder": "tools/lobby"
+    },
+    {
+      "packageName": "rm-gateway",
+      "projectFolder": "tools/gateway"
+    },
+    {
+      "packageName": "rm-cli",
+      "projectFolder": "tools/cli"
+    },
+    {
+      "packageName": "rustymotors",
+      "projectFolder": "apps/main"
+    }
+  ]
+}
