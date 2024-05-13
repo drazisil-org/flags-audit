@@ -30,5 +30,4 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           slug: drazisil-org/flags-audit
-      - name: flags
-        run: ./codecov -c -F core
+
