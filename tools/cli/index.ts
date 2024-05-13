@@ -1,1 +1,1 @@
-export { ConsoleThread } from "../../apps/main/src/ConsoleThread.js";
+export { ConsoleThread } from "./src/ConsoleThread.js";
