@@ -1,0 +1,10 @@
+coverage:
+  notify:
+    irc:
+      valuesrules:
+        server: irc.freednode.net
+        nickserv_password: testing
+        channel: codecov-test
+        notice: true
+ignore:
+  - "*.stories.{js,jsx,ts,tsx}"
